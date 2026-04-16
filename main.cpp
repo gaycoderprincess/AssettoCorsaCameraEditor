@@ -13,7 +13,7 @@ void OnPluginUpdate(double dT);
 #include "util.h"
 
 void OnPluginUpdate(double dT) {
-	auto filename = std::format("plugins/CameraEditor/camera_{}.toml", GetStringNarrow(pMyPlugin->carAvatar->unixName.c_str()));
+	auto filename = std::format("plugins/CameraEditor/{}.toml", GetStringNarrow(pMyPlugin->carAvatar->unixName.c_str()));
 
 	static double fTimer = 0;
 	fTimer += dT;
