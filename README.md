@@ -11,6 +11,7 @@ Simple tool for Assetto Corsa to edit car cameras in real time
 
 ## Building
 
+Building is done on an Arch Linux system with CLion and vcpkg being used for the build process. 
 
 Before you begin, clone [nya-common](https://github.com/gaycoderprincess/nya-common) and [nya-common-ac](https://github.com/gaycoderprincess/nya-common-ac) to folders next to this one, so they can be found.
 
